@@ -1,0 +1,430 @@
+@font-face {
+    font-family: PantonItalica;
+    src: url('../fonts/Panton-BlackitalicCaps.otf');
+}
+@font-face {
+    font-family: PantonCuerpo;
+    src: url('../fonts/Panton-LightCaps.otf');
+}
+@font-face {
+    font-family: PantonCuerpo2;
+    src: url('../fonts/Panton-LightitalicCaps.otf');
+}
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+}
+#Movimiento{
+    opacity: 0;
+}
+header{
+    background:  #18224c;
+    text-align: center;
+    font-size: 77px;
+    padding: 10px 0px;
+    font-family: PantonItalica;
+}
+header h1{
+    color: white;
+}
+.seccion1{
+    text-align: center;
+    padding: 30px 0px;
+    background: #18224c;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 99;
+}
+.seccion1 nav ul li{
+    display: inline;
+    margin: 0px 10px;
+}
+.seccion1 nav ul li a:hover{
+   border-bottom: 3px solid rgba(255, 255, 255, 1)
+}
+.seccion1 nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    transition: 1s ease-out;
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+    font-family: PantonCuerpo;
+
+}
+.seccion2{
+    overflow: hidden;
+    padding: 80px 0px;
+    background: white;
+}
+.s1{
+    float: left;
+    width: 48%;
+    margin: 0px 0px 0px 2%;
+}
+.s2{
+    float: right;
+    width: 48%;
+    margin: 0px 2% 0px 0px;
+}
+.imagenmi{
+    width: 60%;
+}
+.s2 h2{
+    font-size: 26px;
+    color: #18224c;
+    margin: 30px;
+    padding: 0 0 100px 0;
+    font-family: PantonCuerpo2;
+}
+.seccion3{
+    text-align: center;
+    background: #141E42;
+    padding: 140px 0px;
+    font-family: pantonCuerpo;
+}
+.seccion3 h2{
+    font-family: PantonCuerpo2;
+    color: white;
+    font-size: 26px;
+}
+.col3{
+    overflow: hidden;
+}
+.s3,.s4,.s5{
+    float: left;
+    width: 30%;
+    color: white;
+    font-size: 24px;
+}
+.s4{
+    margin: 0px 5% 0px 5%;
+}
+.icono{
+    font-size: 50px;
+    padding: 30px 0px;
+}
+.icono2{
+    color: white;
+}
+.icono3{
+    font-size: 50px;
+    padding: 0px 15px;
+    color: #18224c;
+}
+.bannerimage{
+    width: 100%;
+}
+.banner{
+    text-align: center;
+}
+.textoh1{
+    position: absolute;
+    top: 32%;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 25;
+
+}
+.textoh1 p{
+    color: white;
+    font-size: 45px;
+    font-family: PantonItalica;
+}
+.textoh1 h1{
+    color: white;
+    font-size: 25px;
+    margin: 5% 0px 0px 0px;
+    font-family: PantonCuerpo;
+}
+.banner1{
+    position: relative;
+}
+.contacto{
+    font-family: PantonCuerpo;
+    color: #18224c;
+    background: white;
+}
+.seccion4{
+    color: white;
+    text-align: center;
+    margin: 0px 0 50px 0;
+    overflow: hidden;
+    padding: 80px 0px;
+}
+form label{
+    text-align: left;
+    margin: 0px 0px 0px 23%;
+
+}
+.seccion4 h2{
+    font-family: PantonCuerpo2;
+    font-size: 26px;
+    color: #141E42;
+    padding: 50px 0px 0 0;
+}
+.seccion4 h3{
+    font-family: PantonCuerpo;
+    font-size: 24px;
+}
+.formContacto input{
+    display: block;
+    margin: 20px  auto;
+    width: 50%;
+    background: #141E42;
+    border: 0px;
+    border-bottom: 2px solid white;
+    color: white;
+    font-family: PantonCuerpo;
+    transition: 1s ease-out;
+    box-sizing: content-box;
+}
+.formContacto textarea{
+    display: block;
+    margin: 20px  auto;
+    width: 50%;
+    background: #141E42;
+    resize: none;
+    border: 0px;
+    border-bottom: 2px solid white;
+    color: white;
+    font-family: PantonCuerpo;
+    box-sizing: content-box;
+}
+.contacto{
+    overflow: hidden;
+}
+.sobreMi{
+    float: left;
+    width: 45%;
+}
+.sobreMi h3{
+    margin: 0px 0px 50px 0px;
+}
+.sobreMi h4{
+    margin: 60px 0px 20px 0px;
+}
+.sobreMi p{
+    margin: 25px 20px;
+    text-align: left;
+}
+.formContacto{
+    float: right;
+    width: 45%;
+    box-sizing: content-box;
+}
+.icono2{
+    color: #18224c;
+}
+.botonEnviar{
+    margin: 0px 0px 0px 180px;
+    font-family: pantonCuerpo;
+    padding: 10px 20px;
+    border: 3px solid #141E42;
+    text-decoration: none;
+    background:#141E42;
+    color: white;
+    transition: 1s background;
+}
+.botonEnviar:hover{
+    background: #1E2D63;
+}
+.contacto {
+    text-align: center;
+    padding: 0 0 30px 0px;
+}
+.contacto h2{
+    padding: 50px 0px 50px 0px;
+    font-size: 26px;
+    font-family: PantonCuerpo2;
+    color: #18224c;
+}
+.icono4{
+    color: white;
+    margin: 50px 0px 0px 0px;
+    font-size: 60px;
+}
+.s6,.s7,.s8{
+    float: left;
+    width: 28%;
+}
+.curriculum h2{
+text-align: center;
+color: white;
+font-size: 26px;
+font-family: PantonCuerpo2;
+}
+.curriculum{
+    background: #141E42;
+    overflow: hidden;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.curriculum h3{
+    color: white;
+    font-family: PantonCuerpo;
+    font-size: 20px;
+}
+.seccion5 h3{
+    margin: 80px 0px 20px 0px;
+}
+.seccion5{
+    margin: 40px 0px;
+}
+.s9,.s10{
+    width: 48%;
+    float: left;
+    margin: 0px 1% 40px 1%;
+}
+.portfolio1 img{
+    width: 90%;
+}
+.portfolio1{
+    padding: 40px 0px;
+    color: black;
+}
+.portfolio1 p{
+    padding: 20px 0px;
+    font-family: PantonCuerpo;
+}
+.s7{
+    margin: 0 6%;
+}
+
+
+.progress-bar1 {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #253475;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  }
+  .progress-bar2 {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #253475;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  }
+  .progress-bar3 {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #253475;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  }
+  .progress-bar4 {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #253475;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  }
+  .curriculumbutton a{
+      text-decoration: none;
+      color: #253475;
+      font-family: PantonCuerpo;
+      background: white;
+      padding: 15px 10px;  
+  }
+@media screen and (max-width: 900px){
+    .formContacto,.sobreMi{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .formContacto{
+        margin: 80px 0px 0px 0px;
+    }
+    .sobreMi p{
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 710px){
+    .seccion1 nav ul li a{
+        font-size: 16px; 
+    }
+}
+@media screen and (max-width: 500px){
+    .seccion1{
+        padding: 10px 0px;
+    }
+   .s1{
+       text-align: center;
+   }
+   .s1 h2{
+       text-align: left;
+   }
+    .s1,.s2{
+        width: 100%;
+        float: none;
+    }
+    .s3,.s4,.s5{
+        float: none;
+        width: 100%;
+    }
+    .s6,.s7,.s8{
+        float: none;
+        width: 100%;
+    }
+    .s7{
+        margin: 40px 0px;
+    }
+    .s4{
+        margin: 40px 0px;
+    }
+    .seccion1 nav ul li a{
+        font-size: 10px;
+    }
+    .textoh1 p{
+        font-size: 20px;
+
+    }
+    .textoh1 h1{
+        font-size: 12px;
+    }
+    .textoh1{
+        top:42%;
+    }
+    .icono4{
+      margin: 0;
+      font-size: 20px;
+    }
+    .s9,.s10{
+        width: 100%;
+        float: none;
+    }
+    .formContacto,.sobreMi{
+        width: 100%;
+        float: none;
+    }
+    .sobreMi p{
+        margin: 10px 50px;
+    }
+    .sobreMi{
+        margin: 40px 0px;
+    }
+}

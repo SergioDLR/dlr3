@@ -1,0 +1,44 @@
+/* ---- estilos el formulario ---*/
+form {width:100%;}
+form label {
+    color: #555555;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+   
+}
+form input {
+    height:20px;
+   width:100%;
+    padding:5px 8px;
+	 display: block;
+}
+form textarea {
+    padding:8px;
+     width:100%;
+	  display: block;
+}
+
+
+
+/* === Estilos del boton de Envio === */
+.submit {
+    padding: 9px 17px;
+   font-weight: bold;
+   line-height: 1;
+   color: #444;
+   border: none;
+   text-shadow: 0 1px 1px #fff;
+   background: -moz-linear-gradient(top, #BBBBBB, #FFFFFF);
+   background: -webkit-linear-gradient(top, #BBBBBB, #FFFFFF);
+   border:1px solid #ccc;
+   border-radius: 2px;
+   box-shadow: 0 1px 2px #333;
+   margin:10px 0 0 0;
+}
+.submit:hover {
+    opacity:.55;
+    cursor: pointer;
+}
